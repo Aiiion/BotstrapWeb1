@@ -22,7 +22,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("godis", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <a class="navbar-brand" href="~/Home/index">Home</a>
+                <a class="navbar-brand" href="~/Home/About">About</a>
+                <a class="navbar-brand" href="~/Home/Contact">Contact</a>
                 
 </div>
             <div class="navbar-collapse collapse">
@@ -37,7 +39,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - ABS Incorparated</p>
         </footer>
     </div>
 
