@@ -22,4 +22,10 @@ namespace BotsrapWeb1.Controllers
             return View();
         }
     }
+    public class jobs
+    {
+        public string employer;
+        public string position;
+        public string duration;
+    }
 }
